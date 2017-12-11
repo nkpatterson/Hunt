@@ -15,7 +15,7 @@
 			</Grid.RowDefinitions>
 
 			<local:NavigationBar
-				Title="Dashboard"
+				Title="Dashboard!"
 				CanMoveBack="false">
 				<local:NavigationBar.LeftToolbar>
 					<local:SvgImage
