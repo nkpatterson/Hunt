@@ -1,0 +1,2 @@
+﻿cd "C:\Users\Administrator\source\repos\Hunt\packages"
+appcenter test run uitest --app "nipatter-5s3r/NKP-Hunt" --devices 89ae3f95 --app-path "C:\Users\Administrator\source\repos\Hunt\Hunt.Mobile.iOS\bin\iPhone\Debug\device-builds\iphone10.6-11.2.2\Hunt.Mobile.iOS.ipa"  --test-series "master" --locale "en_US" --build-dir "C:\Users\Administrator\source\repos\Hunt\Hunt.Mobile.UITest\bin\Debug"
