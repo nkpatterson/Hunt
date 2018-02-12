@@ -58,12 +58,12 @@ namespace Hunt.Mobile.UITest
 			Thread.Sleep(3000); //Give a few seconds for the images to load
 			app.Screenshot("Treasure details page");
 
-			app.Tap("heroImage");
-			app.Screenshot("Full size image in portrait");
-			app.SetOrientationLandscape();
-			app.Screenshot("Full size image in landscape");
-			app.Tap("closeButton");
-			app.SetOrientationPortrait();
+			//app.Tap("heroImage");
+			//app.Screenshot("Full size image in portrait");
+			//app.SetOrientationLandscape();
+			//app.Screenshot("Full size image in landscape");
+			////app.Tap("closeButton");
+			//app.SetOrientationPortrait();
 			app.Tap("backButton");
 
 			app.Tap("leaveGameButton");
