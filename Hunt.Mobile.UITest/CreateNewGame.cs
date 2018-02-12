@@ -52,7 +52,7 @@ namespace Hunt.Mobile.UITest
 
 			app.Tap("addTreasureButton");
 			app.Screenshot("Add Treasure page");
-			app.Tap("backButton");
+			app.Tap("closeButton");
 
 			app.Tap("treasureRow");
 			Thread.Sleep(3000); //Give a few seconds for the images to load
